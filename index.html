@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+	<title>Grace</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container">
+		<div class="header__logo"><a href="#">GRACE</a></div>
+		<div class="header__menu menu">
+			<button type="button" class="menu__icon icon-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item "><a href="#" class="menu__link menu-catalog">Каталог
+							<img class="menu-catalog__arrow" src="./img/header/arrow-bottom.svg" alt="arrow-bottom">
+						</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Про бренд</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Акції</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header__icons">
+			<a href="#"><img src="./img/header/search-icon.svg" alt="search-icon"></a>
+			<a href="#"><img src="./img/header/user-icon.svg" alt="user-icon"></a>
+			<a href="#"><img src="./img/header/cart-icon.svg" alt="cart-icon"></a>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="page__main main-page">
+				<div class="main-page__image-ibg"><img src="./img/main/main-background.jpg" alt="main-background"></div>
+				<div class="main-page__container">
+					<div class="main-page__text">
+						<h1>Елегантність у кожному моменті</h1>
+						<p>Безкоштовна доставка ювелірних прикрас по всій Україні</p>
+					</div>
+					<div class="main-page__catalog"><a href="#">
+							каталог
+							<img class="main-page__catalog-img1" src="./img/main/ellipse.svg" alt="ellipse">
+							<img class="main-page__catalog-img2" src="./img/main/ellipse.svg" alt="ellipse">
+						</a></div>
+					<div class="main-page__footer">-15% на все, -20% на дві прикраси та -25% на три прикраси!</div>
+				</div>
+			</section>
+			<section class="page__catalog catalog-page">
+				<div class="catalog-page__container _container">
+					<h2 class="catalog-page__title">Каталог товарів</h2>
+					<div class="catalog-page__content">
+						<div class="catalog-page__filter catalog-filter">
+							<div class="catalog-filter__title">Фільтри</div>
+							<div class="catalog-filter__category">
+								<div class="catalog-filter__category-title">Категорія</div>
+								<ul>
+									<li>Кільця</li>
+									<li>Сережки</li>
+									<li>Броші</li>
+									<li>Підвіски</li>
+									<li>Браслети</li>
+								</ul>
+							</div>
+							<div class="catalog-filter__material">
+								<div class="catalog-filter__category-title">Матеріал</div>
+								<ul>
+									<li>Жовте золото</li>
+									<li>Біле золото</li>
+									<li>Срібло</li>
+								</ul>
+							</div>
+							<div class="catalog-filter__price">
+								<div class="catalog-filter__category-title">Ціна</div>
+								<div class="catalog-filter__price-slidecontainer">
+									<span class="price-min" id="min-price"></span>
+									<input type="range" min="0" max="100000" value="3700" class="price-slider" id="myRangeMin">
+									<input type="range" min="0" max="100000" value="20560" class="price-slider" id="myRangeMax">
+									<span class="price-max" id="max-price"></span>
+								</div>
+							</div>
+						</div>
+						<div class="catalog-page__slider catalog-slider">
+							<div class="catalog-slider__sort">
+								<span>Сортувати по:</span>
+								<select>
+									<option value="1">Популярність</option>
+									<option value="2">Популярність</option>
+								</select>
+							</div>
+							<div class="catalog-slider__cards">
+								<div class="catalog-slider__card">
+									<div class="catalog-slider__card-image"><img src="./img/catalog/image1.jpg"
+											alt="catalog-image"></div>
+									<div class="catalog-slider__card-discription">Срібні сережки з блакитним кварцом 121725</div>
+									<div class="catalog-card__buttons">
+										<button class="catalog-slider__card-add">+ в корзину</button>
+										<button class="catalog-slider__card-detals">Детальніше</button>
+									</div>
+								</div>
+								<div class="catalog-slider__card">
+									<div class="catalog-slider__card-image"><img src="./img/catalog/image2.jpg"
+											alt="catalog-image"></div>
+									<div class="catalog-slider__card-discription">Срібна каблучка "Комета" (матове) 112564/</div>
+									<div class="catalog-card__buttons">
+										<button class="catalog-slider__card-add">+ в корзину</button>
+										<button class="catalog-slider__card-detals">Детальніше</button>
+									</div>
+								</div>
+								<div class="catalog-slider__card">
+									<div class="catalog-slider__card-image"><img src="./img/catalog/image3.jpg"
+											alt="catalog-image"></div>
+									<div class="catalog-slider__card-discription">Каблучка "Грані" в червоному золоті 07085</div>
+									<div class="catalog-card__buttons">
+										<button class="catalog-slider__card-add">+ в корзину</button>
+										<button class="catalog-slider__card-detals">Детальніше</button>
+									</div>
+								</div>
+								<div class="catalog-slider__card">
+									<div class="catalog-slider__card-image"><img src="./img/catalog/image4.jpg"
+											alt="catalog-image"></div>
+									<div class="catalog-slider__card-discription">Срібна каблучка з доріжкою блакитного та жовтого каміння 8152</div>
+									<div class="catalog-card__buttons">
+										<button class="catalog-slider__card-add">+ в корзину</button>
+										<button class="catalog-slider__card-detals">Детальніше</button>
+									</div>
+								</div>
+								<div class="catalog-slider__card">
+									<div class="catalog-slider__card-image"><img src="./img/catalog/image5.jpg"
+											alt="catalog-image"></div>
+									<div class="catalog-slider__card-discription">Кольє в сріблі (синя та жовта емаль) 181222</div>
+									<div class="catalog-card__buttons">
+										<button class="catalog-slider__card-add">+ в корзину</button>
+										<button class="catalog-slider__card-detals">Детальніше</button>
+									</div>
+								</div>
+								<div class="catalog-slider__card">
+									<div class="catalog-slider__card-image"><img src="./img/catalog/image6.jpg"
+											alt="catalog-image"></div>
+									<div class="catalog-slider__card-discription">Кольє "Булава" в сріблі 181224</div>
+									<div class="catalog-card__buttons">
+										<button class="catalog-slider__card-add">+ в корзину</button>
+										<button class="catalog-slider__card-detals">Детальніше</button>
+									</div>
+								</div>
+							</div>
+							<div class="catalog-slider__pagination">
+								<1 <span>2</span> ... 10>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__sales sales-page">
+				<div class="sales-page__card">
+					<div class="sales-page__card-background">
+						<div class="sales-page__image-ibg"><img src="./img/sales/sales1.jpg" alt="sales-img"></div>
+						<h2 class="sales-page__card-title">Знижки на каблучки до 20%</h2>
+						<button class="sales-page__card-button">Детальніше</button>
+						<span class="sales-page__card-sales">-20%</span>
+					</div>
+				</div>
+				<div class="sales-page__card">
+					<div class="sales-page__card-background">
+						<div class="sales-page__image-ibg"><img src="./img/sales/sales2.jpg" alt="sales-img"></div>
+						<h2 class="sales-page__card-title">Розпродаж старої колекції</h2>
+						<button class="sales-page__card-button">Детальніше</button>
+						<span class="sales-page__card-sales">-20%</span>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__logo">GRACE</div>
+		<div class="footer__menu">
+			<nav class="footer-menu">
+				<div class="footer-menu__column">
+					<a href="#">Про нас</a>
+					<a href="#">Доставка i Оплата</a>
+					<a href="#">Повернення та обмiн</a>
+					<a href="#">Питання-вiдповiдi</a>
+					<a href="#">Контакти</a>
+					<a href="#">Карта сайту</a>
+				</div>
+				<div class="footer-menu__column">
+					<p>Прийом дзвiнкiв:</p>
+					<p>Пн-Пт (9:00 - </p>
+					<p>18:00)</p>
+					<p>Сб-Нд (10:00 - </p>
+					<p>17:00)</p>
+				</div>
+				<div class="footer-menu__column">
+					<p class="p500">Замовлення</p>
+					<p class="p500">ONLINE:</p>
+					<p>цiлодобово</p>
+				</div>
+				<div class="footer-menu__column">
+					<a href="#">ua</a>
+				</div>
+			</nav>
+		</div>
+	</div>
+</footer>
+	</div>
+	<!-- Swiper
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<!-- <script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script> -->
+
+<script>
+	const sliderMin = document.getElementById("myRangeMin");
+	const outputMin = document.getElementById("min-price");
+	const sliderMax = document.getElementById("myRangeMax");
+	const outputMax = document.getElementById("max-price");
+	outputMin.innerHTML = sliderMin.value;
+	outputMax.innerHTML = sliderMax.value;
+
+	sliderMin.oninput = function () {
+		outputMin.innerHTML = this.value;
+	}
+	sliderMax.oninput = function () {
+		outputMax.innerHTML = this.value;
+	}
+</script>
+</body>
+
+</html>
